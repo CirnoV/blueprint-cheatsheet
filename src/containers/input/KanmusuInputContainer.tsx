@@ -23,7 +23,13 @@ const KanmusuInputContainer: React.FC<KanmusuInputContainerProps> = ({
   const onChange = useCallback(e => update(e.target.value), [update]);
   return (
     <div>
-      <a href="http://kancolle-calc.net/kanmusu_list.html">kanmusu list</a>
+      <a
+        href="http://kancolle-calc.net/kanmusu_list.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        kanmusu list
+      </a>
       {': '}
       <input onChange={onChange} placeholder=".2|1:[...]" />
     </div>

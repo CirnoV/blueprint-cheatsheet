@@ -21,6 +21,15 @@ const App: React.FC = () => {
   }, []);
   return (
     <Container>
+      <a
+        href="https://github.com/CirnoV/blueprint-cheatsheet"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Github
+      </a>
+      <br />
+      <br />
       <KanmusuInputContainer />
       <br />
       <button onClick={onClick}>Download</button>
