@@ -1,0 +1,417 @@
+{
+  "BB": [
+    {
+      "id": 80,
+      "sprite": "0541_8677.png",
+      "level": 88,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 81,
+      "sprite": "0573_6709.png",
+      "level": 89,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 77,
+      "sprite": "0553_8566.png",
+      "level": 88,
+      "materials": {
+        "blueprint": 2,
+        "report": 1,
+        "catapult": 1,
+        "devmat": 80
+      }
+    },
+    {
+      "id": 87,
+      "sprite": "0554_1669.png",
+      "level": 90,
+      "materials": {
+        "blueprint": 2,
+        "report": 1,
+        "catapult": 1,
+        "airmat": 1,
+        "devmat": 181
+      }
+    },
+    {
+      "id": 26,
+      "sprite": "0411_7546.png",
+      "level": 80,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 27,
+      "sprite": "0412_4972.png",
+      "level": 80,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 171,
+      "sprite": "0178_4020.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 2
+      }
+    },
+    {
+      "id": 441,
+      "sprite": "0446_8176.png",
+      "level": 35,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 442,
+      "sprite": "0447_2494.png",
+      "level": 35,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 143,
+      "sprite": "0546_4511.png",
+      "level": 89,
+      "materials": {
+        "blueprint": 3,
+        "report": 1,
+        "gunmat": 3
+      }
+    },
+    {
+      "id": 78,
+      "sprite": "0591_5835.png",
+      "level": 92,
+      "materials": {
+        "blueprint": 2,
+        "report": 1,
+        "gunmat": 2,
+        "devmat": 300
+      }
+    }
+  ],
+  "CV": [
+    {
+      "id": 110,
+      "sprite": "0466_6504.png",
+      "level": 80,
+      "materials": {
+        "blueprint": 1,
+        "catapult": 1
+      },
+      "convert": 3
+    },
+    {
+      "id": 111,
+      "sprite": "0467_5728.png",
+      "level": 77,
+      "materials": {
+        "blueprint": 1,
+        "catapult": 1
+      },
+      "convert": 3
+    },
+    {
+      "id": 404,
+      "sprite": "0406_3728.png",
+      "level": 50,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 331,
+      "sprite": "0429_1805.png",
+      "level": 50,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 332,
+      "sprite": "0430_7653.png",
+      "level": 50,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 433,
+      "sprite": "0550_2129.png",
+      "level": 85,
+      "materials": {
+        "blueprint": 1,
+        "catapult": 1
+      },
+      "convert": 3
+    },
+    {
+      "id": 184,
+      "sprite": "0318_6692.png",
+      "level": 25,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 521,
+      "sprite": "0529_8493.png",
+      "level": 85,
+      "materials": {
+        "blueprint": 1,
+        "catapult": 1
+      }
+    },
+    {
+      "id": 534,
+      "sprite": "0536_2620.png",
+      "level": 85,
+      "materials": {
+        "blueprint": 1,
+        "catapult": 1,
+        "devmat": 40
+      }
+    },
+    {
+      "id": 124,
+      "sprite": "0508_8627.png",
+      "level": 88,
+      "materials": {
+        "blueprint": 2
+      }
+    },
+    {
+      "id": 125,
+      "sprite": "0509_3442.png",
+      "level": 88,
+      "materials": {
+        "blueprint": 2
+      }
+    },
+    {
+      "id": 83,
+      "sprite": "0594_8718.png",
+      "level": 90,
+      "materials": {
+        "blueprint": 2,
+        "report": 1,
+        "catapult": 1,
+        "airmat": 2,
+        "devmat": 100
+      },
+      "convert": 3
+    }
+  ],
+  "CA": [
+    {
+      "id": 71,
+      "sprite": "0188_1933.png",
+      "level": 70,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 72,
+      "sprite": "0189_4866.png",
+      "level": 70,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 124,
+      "sprite": "0503_7294.png",
+      "level": 84,
+      "materials": {
+        "blueprint": 1
+      },
+      "only": 3
+    },
+    {
+      "id": 125,
+      "sprite": "0504_5133.png",
+      "level": 84,
+      "materials": {
+        "blueprint": 1
+      },
+      "only": 3
+    },
+    {
+      "id": 69,
+      "sprite": "0427_4690.png",
+      "level": 65,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 448,
+      "sprite": "0496_3594.png",
+      "level": 88,
+      "materials": {
+        "blueprint": 1
+      }
+    }
+  ],
+  "CL": [
+    {
+      "id": 114,
+      "sprite": "0200_1360.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 113,
+      "sprite": "0487_3865.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 23,
+      "sprite": "0488_8200.png",
+      "level": 77,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 100,
+      "sprite": "0547_9622.png",
+      "level": 70,
+      "materials": {
+        "blueprint": 1
+      }
+    }
+  ],
+  "DD": [
+    {
+      "id": 42,
+      "sprite": "0497_9307.png",
+      "level": 77,
+      "materials": {
+        "report": 1,
+        "devmat": 15
+      }
+    },
+    {
+      "id": 44,
+      "sprite": "0498_2469.png",
+      "level": 70,
+      "materials": {
+        "report": 1
+      }
+    },
+    {
+      "id": 458,
+      "sprite": "0587_8659.png",
+      "level": 82,
+      "materials": {
+        "report": 1,
+        "devmat": 30
+      }
+    },
+    {
+      "id": 96,
+      "sprite": "0199_2301.png",
+      "level": 65,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 98,
+      "sprite": "0490_2380.png",
+      "level": 67,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 48,
+      "sprite": "0198_3462.png",
+      "level": 63,
+      "materials": {
+        "blueprint": 1
+      }
+    },
+    {
+      "id": 17,
+      "sprite": "0566_3589.png",
+      "level": 70,
+      "materials": {
+        "blueprint": 1,
+        "devmat": 20
+      }
+    },
+    {
+      "id": 18,
+      "sprite": "0567_6309.png",
+      "level": 72,
+      "materials": {
+        "blueprint": 1,
+        "devmat": 20
+      }
+    },
+    {
+      "id": 19,
+      "sprite": "0568_7059.png",
+      "level": 73,
+      "materials": {
+        "blueprint": 1,
+        "devmat": 20
+      }
+    },
+    {
+      "id": 133,
+      "sprite": "0542_3817.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1,
+        "report": 1
+      }
+    },
+    {
+      "id": 135,
+      "sprite": "0543_1873.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1,
+        "report": 1
+      }
+    },
+    {
+      "id": 134,
+      "sprite": "0563_1717.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1,
+        "report": 1
+      }
+    },
+    {
+      "id": 453,
+      "sprite": "0564_3262.png",
+      "level": 75,
+      "materials": {
+        "blueprint": 1,
+        "report": 1
+      }
+    }
+  ]
+}
