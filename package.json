@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "CirnoV <cirnov59@gmail.com>",
-  "homepage": "https://icicle.moe/blueprint-cheatsheet",
+  "homepage": "https://icicle.moe/blueprint-cheatsheet/",
   "dependencies": {
     "@inlet/react-pixi": "^1.0.0",
     "@types/jest": "24.0.15",
