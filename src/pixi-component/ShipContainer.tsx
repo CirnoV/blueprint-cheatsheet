@@ -36,7 +36,6 @@ const ShipContainer: React.FC<ShipContainerProps> = ({
         text={name}
         style={
           new TextStyle({
-            fontFamily: "'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif",
             fontSize: 21,
             fontWeight: '700'
           })
