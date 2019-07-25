@@ -1,0 +1,1 @@
+# Kancolle Blueprint Cheat Sheet
