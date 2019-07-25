@@ -23,7 +23,7 @@ const App: React.FC = () => {
     <Container>
       <KanmusuInputContainer />
       <br />
-      <button onClick={onClick}>download</button>
+      <button onClick={onClick}>Download</button>
       <br />
       <CheatSheetContainer />
     </Container>
