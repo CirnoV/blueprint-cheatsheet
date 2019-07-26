@@ -8,8 +8,17 @@ import rootReducer from './modules';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import { decode64, getUrlParameter } from './lib/utils';
+import { update } from './modules/kanmusu';
 
 const store = createStore(rootReducer, composeWithDevTools());
+
+(function() {
+  const data: string | null = getUrlParameter('data');
+  if (data) {
+    store.dispatch(update(decode64(data)));
+  }
+})();
 
 ReactDOM.render(
   <Provider store={store}>
