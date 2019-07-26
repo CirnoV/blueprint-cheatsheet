@@ -2,24 +2,24 @@ import React from 'react';
 import CheatSheet from '../../pixi-component/CheatSheet';
 import { connect } from 'react-redux';
 import { RootState } from '../../modules';
-import { KanmusuCount } from '../../lib/utils';
+import { KanmusuList } from '../../lib/utils';
 
 type OwnProps = {};
 type StateProps = {
-  kanmusu: KanmusuCount;
+  data: KanmusuList;
 };
 type DispatchProps = {};
 
 type CheatSheetContainerProps = OwnProps & StateProps & DispatchProps;
 
 const CheatSheetContainer: React.FC<CheatSheetContainerProps> = ({
-  kanmusu
+  data: kanmusuList
 }) => {
-  return <CheatSheet kanmusu={kanmusu} />;
+  return <CheatSheet kanmusu={kanmusuList} />;
 };
 
 export default connect<StateProps, DispatchProps, OwnProps, RootState>(
   state => ({
-    kanmusu: state.kanmusu
+    data: state.kanmusu.data
   })
 )(CheatSheetContainer);

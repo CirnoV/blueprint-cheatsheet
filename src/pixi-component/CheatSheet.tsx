@@ -1,11 +1,11 @@
 import React from 'react';
 import { Stage, Container } from '@inlet/react-pixi';
 import ShipContainer from './ShipContainer';
-import { KanmusuCount } from '../lib/utils';
+import { KanmusuList } from '../lib/utils';
 import { sheetData } from '../lib/sheetData';
 
 type CheatSheetProps = {
-  kanmusu: KanmusuCount;
+  kanmusu: KanmusuList;
 };
 
 const CheatSheet: React.FC<CheatSheetProps> = ({ kanmusu }) => (

@@ -3,14 +3,14 @@ import { Container, Text } from '@inlet/react-pixi';
 import ShipBanner from './ShipBanner';
 import { TextStyle } from 'pixi.js';
 import { ShipData } from '../lib/sheetData';
-import { KanmusuCount } from '../lib/utils';
+import { KanmusuList } from '../lib/utils';
 
 type ShipContainerProps = {
   x?: number;
   y?: number;
   name: string;
   sheetData: ShipData[];
-  kanmusu: KanmusuCount;
+  kanmusu: KanmusuList;
 };
 
 const defaultProps = {

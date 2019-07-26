@@ -1,7 +1,6 @@
 import React, { useCallback } from 'react';
 import { connect } from 'react-redux';
 import { RootState } from '../../modules';
-import { KanmusuCount } from '../../lib/utils';
 import { update } from '../../modules/kanmusu';
 
 const mapDispatchToProps = {
@@ -10,14 +9,14 @@ const mapDispatchToProps = {
 
 type OwnProps = {};
 type StateProps = {
-  kanmusu: KanmusuCount;
+  code: string;
 };
 type DispatchProps = typeof mapDispatchToProps;
 
 type KanmusuInputContainerProps = OwnProps & StateProps & DispatchProps;
 
 const KanmusuInputContainer: React.FC<KanmusuInputContainerProps> = ({
-  kanmusu,
+  code,
   update
 }) => {
   const onChange = useCallback(e => update(e.target.value), [update]);
@@ -31,14 +30,14 @@ const KanmusuInputContainer: React.FC<KanmusuInputContainerProps> = ({
         kanmusu list
       </a>
       {': '}
-      <input onChange={onChange} placeholder=".2|1:[...]" />
+      <input value={code} onChange={onChange} placeholder=".2|1:[...]" />
     </div>
   );
 };
 
 export default connect<StateProps, DispatchProps, OwnProps, RootState>(
   state => ({
-    kanmusu: state.kanmusu
+    code: state.kanmusu.code
   }),
   mapDispatchToProps
 )(KanmusuInputContainer);

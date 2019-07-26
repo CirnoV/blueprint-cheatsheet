@@ -10,18 +10,18 @@ export function createReducer<S>(handlers: Handlers<S>, initialState: S) {
   };
 }
 
-export type KanmusuCount = {
+export type KanmusuList = {
   [key: string]: number[];
 };
 
-export function parseKanmusuList(code: string): KanmusuCount {
+export function parseKanmusuList(code: string): KanmusuList {
   const ver = code.slice(0, 2);
   if (ver === '.2') {
     return code
       .slice(3)
       .split('|')
       .map(s => s.split(':'))
-      .reduce<KanmusuCount>((acc, [shipId, shipData]) => {
+      .reduce<KanmusuList>((acc, [shipId, shipData]) => {
         acc[shipId] = shipData.split(',').map(Number);
         return acc;
       }, {});
@@ -63,6 +63,7 @@ export function getUrlParameter(sParam: string): string | null {
   return new URLSearchParams(window.location.search).get(sParam);
 }
 
+// Customized base64 decoding: http://kancolle-calc.net/data/share.js
 export function decode64(inputString: string) {
   const BASE64 =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-';

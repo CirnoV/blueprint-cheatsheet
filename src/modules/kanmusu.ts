@@ -1,19 +1,28 @@
 import { createStandardAction } from 'typesafe-actions';
-import { createReducer, KanmusuCount, parseKanmusuList } from '../lib/utils';
+import { createReducer, KanmusuList, parseKanmusuList } from '../lib/utils';
 
 const UPDATE = 'kanmusu/UPDATE';
 
 export const update = createStandardAction(UPDATE)<string>();
 
-export type KanmusuState = KanmusuCount;
+export type KanmusuState = {
+  code: string;
+  data: KanmusuList;
+};
 
 type Update = ReturnType<typeof update>;
 
-const initialState: KanmusuState = {};
+const initialState: KanmusuState = {
+  code: '',
+  data: {}
+};
 const kanmusu = createReducer<KanmusuState>(
   {
     [UPDATE]: (_, action: Update) => {
-      return parseKanmusuList(action.payload);
+      return {
+        code: action.payload,
+        data: parseKanmusuList(action.payload)
+      };
     }
   },
   initialState
