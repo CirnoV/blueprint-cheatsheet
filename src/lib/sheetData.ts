@@ -14,6 +14,7 @@ export type ShipData = {
   };
   convert?: number;
   only?: number;
+  or?: number;
 };
 
 export type SheetData = {

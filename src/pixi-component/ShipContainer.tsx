@@ -43,7 +43,7 @@ const ShipContainer: React.FC<ShipContainerProps> = ({
       />
       <Container y={32}>
         {sheetData.map(
-          ({ id, sprite, level, materials, convert, only }, idx) => {
+          ({ id, sprite, level, materials, convert, only, or }, idx) => {
             let exists = 0;
             if (kanmusu[id]) {
               const kanmuses = kanmusu[id]
@@ -54,6 +54,10 @@ const ShipContainer: React.FC<ShipContainerProps> = ({
                 exists += kanmuses.filter(
                   lv => lv[1] && Number(lv[1]) === convert
                 ).length;
+              }
+              if (or) {
+                exists += kanmuses.filter(lv => lv[1] && Number(lv[1]) === or)
+                  .length;
               }
               if (only) {
                 exists = kanmuses.filter(lv => lv[1] && Number(lv[1]) === only)
