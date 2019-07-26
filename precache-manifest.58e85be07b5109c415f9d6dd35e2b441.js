@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71171072dde9c7b8631b2310ecd4159f",
+    "revision": "17000eb67287613fd0cd88691380b477",
     "url": "/blueprint-cheatsheet/index.html"
   },
   {
-    "revision": "c97eba65b97cb062a39d",
+    "revision": "caa21f11dfd659dbf3dc",
     "url": "/blueprint-cheatsheet/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "6a6898da58855b5370d5",
+    "revision": "8163b47cc33f67b90933",
     "url": "/blueprint-cheatsheet/static/css/main.3cd8239d.chunk.css"
   },
   {
-    "revision": "c97eba65b97cb062a39d",
-    "url": "/blueprint-cheatsheet/static/js/2.cfed2635.chunk.js"
+    "revision": "caa21f11dfd659dbf3dc",
+    "url": "/blueprint-cheatsheet/static/js/2.e9e24017.chunk.js"
   },
   {
-    "revision": "6a6898da58855b5370d5",
-    "url": "/blueprint-cheatsheet/static/js/main.ff3e2931.chunk.js"
+    "revision": "8163b47cc33f67b90933",
+    "url": "/blueprint-cheatsheet/static/js/main.2d514fb6.chunk.js"
   },
   {
     "revision": "0325c9aae2b638db860f",
